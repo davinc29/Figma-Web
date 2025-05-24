@@ -108,22 +108,6 @@
         <div id="box-seção5">
             <img src="Sustentabilidade-500.jpg" alt="Sustentabilidade">
         </div>
-
-        <div id="sacolas-evitadas">
-            <div id="calculadora">
-                <p>Calcular Quandidade De Sacolas Evitadas:</p>
-                <input type="number" id="quantidade" placeholder="Quantidade de sacolas compradas">
-                <button onclick="calcular()">Calcular Impacto</button>
-                <p id="resultado"></p>
-            </div>
-            <script>
-                function calcular() {
-                    const qtd = document.getElementById('quantidade').value;
-                    document.getElementById('resultado').innerHTML = 
-                        `Obrigado, você evitou ${qtd * 20} sacolas plásticas! 🌱`;
-                }
-            </script>
-        </div>
     </section>
 
 
